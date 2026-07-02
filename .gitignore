@@ -1,0 +1,18 @@
+node_modules
+.next
+out
+dist
+.env*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+# Local source material and one-off scripts; publish only curated assets in public/
+3d-human-organ-visualization/
+case-level-hp-recognition/
+gastric-anatomy-segmentation/
+gi-lesion-detection/
+新建文件夹/
+visualize_lesion_xml.py
