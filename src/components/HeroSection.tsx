@@ -1,3 +1,5 @@
+import { MediaFallback } from "@/components/project-detail/MediaFallback";
+
 export function HeroSection() {
   return (
     <section
@@ -27,14 +29,14 @@ export function HeroSection() {
         <div className="relative">
           <div className="absolute -inset-1 rounded-[1.35rem] border border-med-cyan/20" />
           <div className="relative aspect-video overflow-hidden rounded-2xl border border-white/10 bg-white/[0.035] shadow-glow backdrop-blur-xl">
-            <video
-              className="h-full w-full object-contain opacity-95"
+            <MediaFallback
+              type="video"
               src="/videos/portfolio-overview.mp4"
               poster="/images/projects/3d-organ-cover.jpg"
-              muted
-              loop
-              playsInline
-              autoPlay
+              alt="Medical imaging AI portfolio overview"
+              label="Portfolio overview AI demo reel"
+              fit="contain"
+              className="opacity-95"
             />
             <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.05),rgba(0,0,0,0.42))]" />
             <div className="pointer-events-none absolute bottom-0 left-0 right-0 flex items-center justify-between border-t border-white/10 bg-black/35 px-4 py-3 text-xs uppercase tracking-[0.2em] text-med-cyan/85 backdrop-blur">

@@ -1,0 +1,24 @@
+.git
+.next
+.vercel
+node_modules
+
+.env
+.env.*
+
+# Temporary local placeholder videos. Pages render a designed fallback if these
+# files are not present in the deployment bundle.
+public/videos/**/*.mp4
+
+# Raw source material and local-only tooling.
+3d-human-organ-visualization/
+case-level-hp-recognition/
+gastric-anatomy-segmentation/
+gi-lesion-detection/
+新建文件夹/
+visualize_lesion_xml.py
+
+.agents/
+.codex/
+*.log
+*.tsbuildinfo
