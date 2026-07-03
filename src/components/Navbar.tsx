@@ -20,7 +20,7 @@ export function Navbar() {
           </span>
         </Link>
 
-        <div className="hidden items-center gap-7 text-sm font-medium text-slate-300 md:flex">
+        <div className="hidden items-center gap-8 text-base font-medium text-slate-200 md:flex">
           {navItems.map((item) => (
             <Link
               key={item.label}
