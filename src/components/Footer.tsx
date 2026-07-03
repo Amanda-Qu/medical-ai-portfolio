@@ -12,8 +12,8 @@ export function Footer() {
           All medical images shown in this portfolio are anonymized, synthetic,
           or replaced with representative placeholders for privacy protection.
         </p>
-        <a className="text-med-cyan transition hover:text-white" href="mailto:hello@example.com">
-          Contact
+        <a className="text-med-cyan transition hover:text-white" href="mailto:quzhiyan000@163.com">
+          quzhiyan000@163.com
         </a>
       </div>
     </footer>
