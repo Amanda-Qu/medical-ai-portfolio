@@ -42,7 +42,7 @@ export const projects: Project[] = [
       "Capsule endoscopy lesion detection system for multi-class lesion recognition and clinical review support.",
     tags: ["Detection", "YOLO", "Capsule Endoscopy", "Medical AI"],
     coverImage: "/images/projects/lesion-detection-cover.jpg",
-    video: "/videos/projects/lesion-detection-demo.mp4",
+    video: "/videos/projects/lesion-detection-demo.webm",
     gallery: [
       "/images/projects/lesion-detection-01.jpg",
       "/images/projects/lesion-detection-02.jpg",
@@ -101,7 +101,7 @@ export const projects: Project[] = [
       "Anatomical understanding system for gastric region recognition, timeline modeling, and keyframe selection.",
     tags: ["Segmentation", "Anatomy", "Timeline", "Medical AI"],
     coverImage: "/images/projects/gastric-segmentation-cover.jpg",
-    video: "/videos/projects/gastric-segmentation-demo.mp4",
+    video: "/videos/projects/gastric-segmentation-demo.webm",
     gallery: [
       "/images/projects/gastric-segmentation-01.jpg",
       "/images/projects/gastric-segmentation-02.jpg",
@@ -160,7 +160,7 @@ export const projects: Project[] = [
       "Weakly supervised case-level prediction system for Helicobacter pylori infection based on multi-frame image sequences.",
     tags: ["MIL", "Weak Supervision", "Case-level Prediction", "Medical AI"],
     coverImage: "/images/projects/hp-recognition-cover.jpg",
-    video: "/videos/projects/hp-recognition-demo.mp4",
+    video: "/videos/projects/hp-recognition-demo.webm",
     gallery: [
       "/images/projects/hp-recognition-01.jpg",
       "/images/projects/hp-recognition-02.jpg",
@@ -219,7 +219,7 @@ export const projects: Project[] = [
       "3D anatomical visualization for medical AI presentation, spatial understanding, and clinical communication.",
     tags: ["3D", "Anatomy", "Visualization", "Medical AI"],
     coverImage: "/images/projects/3d-organ-cover.jpg",
-    video: "/videos/projects/3d-organ-demo.mp4",
+    video: "/videos/projects/3d-organ-demo.webm",
     gallery: [
       "/images/projects/3d-organ-01.jpg",
       "/images/projects/3d-organ-02.jpg",

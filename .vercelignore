@@ -6,9 +6,10 @@ node_modules
 .env
 .env.*
 
-# Temporary local placeholder videos. Pages render a designed fallback if these
-# files are not present in the deployment bundle.
-public/videos/**/*.mp4
+# Hero uses a cover reel now, so this local overview placeholder is not needed
+# in the deployment bundle.
+public/videos/portfolio-overview.mp4
+public/videos/projects/*.mp4
 
 # Raw source material and local-only tooling.
 3d-human-organ-visualization/
