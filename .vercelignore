@@ -9,7 +9,6 @@ node_modules
 # Hero uses a cover reel now, so this local overview placeholder is not needed
 # in the deployment bundle.
 public/videos/portfolio-overview.mp4
-public/videos/projects/*.mp4
 
 # Raw source material and local-only tooling.
 3d-human-organ-visualization/
